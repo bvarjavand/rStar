@@ -1,0 +1,35 @@
+### Instruction:
+Identify the primary emotion expressed in the following situation: The sun is shining, birds are chirping, and I just got a promotion at work. I can't stop smiling!
+
+### Response:
+Let's think step by step. The description includes positive environmental factors (sunshine, bird songs) that often boost mood. There's a significant personal achievement (promotion at work), which typically brings feelings of success. The physical reaction of "can't stop smiling" is a clear sign of happiness. These elements combined - pleasant surroundings, personal success, and visible happiness - all indicate a strong positive emotion. The answer is: joy.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I found an old photo album and realized how much time has passed. Everyone looks so young and happy.
+
+### Response:
+Let's think step by step. Finding an old photo album has triggered a realization about the passage of time. The comment about everyone looking "young and happy" suggests a contrast with the present. This reflection on past and change often evokes nostalgia, which can be bittersweet. The tone implies a sense of loss or longing for the past. Considering these elements of nostalgia, reflection on change, and a sense of loss, we can identify the primary emotion. The answer is: sadness.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I can't believe they changed the parking rules without notifying anyone. Now I have a ticket!
+
+### Response:
+Let's think step by step. There's an unexpected change in rules without proper communication. The person has experienced a negative consequence (getting a ticket). The phrase "I can't believe" suggests disbelief and indignation. The overall tone is one of frustration and feeling wronged. This combination of unexpected negative changes, perceived lack of fairness, and personal consequences typically triggers a particular emotion. The answer is: anger.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I have a big presentation tomorrow and I'm not sure I'm prepared. What if I mess up in front of everyone?
+
+### Response:
+Let's think step by step. There's an important upcoming event (big presentation). The person expresses self-doubt about their preparation. They're imagining a negative outcome (messing up). There's concern about social judgment ("in front of everyone"). The "What if" question indicates anxiety about future possibilities. This combination of an important event, self-doubt, anticipated negative outcomes, and social concern points to a specific emotional state. The answer is: fear.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I opened my front door and all my friends were there yelling 'Surprise!' I had no idea it was my birthday!
+
+### Response:
+Let's think step by step. There's an unexpected event (friends at the door yelling 'Surprise!'). The person was unaware of a significant fact (their birthday). The situation was sudden and unanticipated. There's an element of positive shock. The phrase "I had no idea" emphasizes the complete unexpectedness. This combination of a sudden, unforeseen event causing a rapid reassessment of the situation points to a specific emotional response. The answer is: surprise.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: Watching my child take their first steps filled me with an overwhelming sense of affection and pride.
+
+### Response:
+Let's think step by step. There's a significant milestone event (child's first steps). The person experiences a strong emotional reaction described as "overwhelming." They mention two specific feelings: affection and pride. The context is a parent-child relationship, typically associated with deep caring. This combination of affection and pride in a familial context suggests a complex, positive emotion. The intensity of the feeling and its connection to a loved one's milestone point to a deep, enduring emotion. The answer is: love.

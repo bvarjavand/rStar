@@ -3,7 +3,7 @@
 from eval_src.toolkit_for_MATH.latex_answer_check import latex_answer_check as latex_equiv
 
 import os, json, re
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Union
 from collections import defaultdict
 import random
 from fuzzywuzzy import fuzz, process
@@ -223,7 +223,7 @@ class GSM8KEvaluator(Evaluator):
 
         return correct
 
-    def extract_answer_from_gold_solution(self, solution: str | float):
+    def extract_answer_from_gold_solution(self, solution: Union[str, float]):
         """Extract the answer from the gold solution."""
         if isinstance(solution, float):
             return str(solution)
@@ -354,7 +354,7 @@ class SVAMPEvaluator(Evaluator):
 
         return correct
 
-    def extract_answer_from_gold_solution(self, solution: str | float):
+    def extract_answer_from_gold_solution(self, solution: Union[str, float]):
         """Extract the answer from the gold solution."""
         if isinstance(solution, float):
             return str(solution)
@@ -438,3 +438,76 @@ class STGEvaluator(Evaluator):
             return None
 
         return self._format_answer(answer)
+
+class EmotionEvaluator(Evaluator):
+    def __init__(self):
+        super().__init__()
+        self.emotions = ["joy", "sadness", "anger", "fear", "surprise", "love"]
+
+    def extract_answer_from_model_completion(self, completion):
+        # Extract the emotion from the completion
+        # This might need to be adjusted based on the exact format of your model's output
+        lower_completion = completion.lower()
+        for emotion in self.emotions:
+            if emotion in lower_completion:
+                return emotion
+        return None
+
+    def check_answers_equiv(self, pred_answer, gt_answer):
+        # Compare predicted and ground truth emotions
+        return pred_answer.lower() == gt_answer.lower()
+
+    def find_most_confident_answer(self, completions):
+        # Count occurrences of each emotion
+        emotion_counts = {emotion: 0 for emotion in self.emotions}
+        for completion in completions:
+            emotion = self.extract_answer_from_model_completion(completion)
+            if emotion:
+                emotion_counts[emotion] += 1
+        
+        # Find the most common emotion
+        most_common_emotion = max(emotion_counts, key=emotion_counts.get)
+        confidence = emotion_counts[most_common_emotion] / len(completions)
+        
+        return most_common_emotion, None, None, confidence
+
+class EmotionEvaluator(Evaluator):
+    def __init__(self) -> None:
+        super().__init__()
+        self.answer_marker = "the emotion is"  # Changed to better fit emotion detection
+
+    def check_answers_equiv(self, answer_a: str, answer_b: str):
+        """Judge whether two emotion answers are equivalent."""
+        if answer_a is None or answer_b is None:
+            return False
+
+        assert isinstance(answer_a, str) and isinstance(answer_b, str)
+
+        # Use fuzzy string matching to allow for slight variations
+        return fuzz.ratio(answer_a.lower(), answer_b.lower()) >= 90
+
+    def extract_answer_from_gold_solution(self, solution: str) -> str:
+        """Extract the answer from the gold solution."""
+        return solution.strip().lower()
+
+    def extract_answer_from_model_completion(self, completion: str) -> str:
+        """Extract the answer from the model completion."""
+        if completion is None:
+            return None
+
+        assert isinstance(completion, str)
+
+        answer = self.isolate_answer(completion)
+        if answer is None:
+            return None
+
+        # Extract the last word as the emotion
+        words = answer.split()
+        if words:
+            return words[-1].lower()
+        return None
+
+    def validate_completion(self, completion: str) -> bool:
+        """Validate if the completion contains the answer marker."""
+        return self.answer_marker.lower() in completion.lower()
+    

@@ -4,3 +4,5 @@ tmp
 **/nohup.out
 **/out
 **/keys
+
+**/.ipynb_checkpoints

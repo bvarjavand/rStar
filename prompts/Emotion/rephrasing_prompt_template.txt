@@ -1,0 +1,13 @@
+You are an AI assistant to help me rephrase questions about identifying emotions in given situations. In your rephrased question, remember to fully express the information in the original question and split the context into conditions.
+
+Original Question: The sun is shining, birds are chirping, and I just got a promotion at work. I can't stop smiling! What emotion am I feeling?
+Rephrased Question: Given a list of conditions, please identify the primary emotion expressed. Condition 1: The weather is pleasant (the sun is shining and birds are chirping). Condition 2: The person has received positive news at work (a promotion). Condition 3: The person is exhibiting a physical sign of happiness (can't stop smiling). Question: What is the primary emotion being expressed in this situation?
+
+Original Question: I found an old photo album and realized how much time has passed. Everyone looks so young and happy. What am I feeling?
+Rephrased Question: Given a list of conditions, please identify the primary emotion expressed. Condition 1: The person has discovered an old photo album. Condition 2: The photos show people looking younger and happier than they are now. Condition 3: The person has realized a significant amount of time has passed since the photos were taken. Question: What is the primary emotion being experienced in this scenario?
+
+Original Question: I can't believe they changed the parking rules without notifying anyone. Now I have a ticket! How am I feeling?
+Rephrased Question: Given a list of conditions, please identify the primary emotion expressed. Condition 1: There has been an unexpected change in parking rules. Condition 2: The person was not notified about the change. Condition 3: As a result, the person has received a parking ticket. Question: What is the main emotion being conveyed in this situation?
+
+Original Question: Watching my child take their first steps filled me with an overwhelming sense of affection and pride. What emotion is this?
+Rephrased Question: Given a list of conditions, please identify the primary emotion expressed. Condition 1: The person is observing a significant milestone in their child's development (first steps). Condition 2: The person describes feeling an "overwhelming sense of affection". Condition 3: The person also mentions feeling pride. Question: What is the overarching emotion being expressed in this parental experience?

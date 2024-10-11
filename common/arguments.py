@@ -42,7 +42,7 @@ def get_parser():
 
     #! dataset settings
     parser.add_argument("--data_root", default="data")
-    allowed_dataset_names = ["MATH", "GSM8K", "GSM8KHARD", "STG", "SVAMP", "MULTIARITH"]
+    allowed_dataset_names = ["MATH", "GSM8K", "GSM8KHARD", "STG", "SVAMP", "MULTIARITH", "Emotion"]
     parser.add_argument(
         "--dataset_name",
         required=True,
@@ -61,6 +61,9 @@ def get_parser():
 
 
 def post_process_args(args):
+    
+    if not hasattr(args, 'mode'):
+        args.mode = 'run'
     # Set up logging
     suffix = "---[" + args.note + "]" if args.note is not None else ""
     model_name = args.model_ckpt.split("/")[-1]

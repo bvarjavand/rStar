@@ -1,0 +1,49 @@
+Given a situation describing an emotional experience, please decompose it into sub-questions. For each sub-question, please answer it in a complete sentence. When the original question is answerable, please start the sub-question with "Now we can identify the primary emotion: <original question>".
+
+Situation 1: The sun is shining, birds are chirping, and I just got a promotion at work. I can't stop smiling! What emotion am I feeling?
+Question 1.1: What environmental factors are described in the situation?
+Answer 1.1: The situation describes a sunny day with birds chirping, which are generally associated with positive environmental conditions.
+Question 1.2: What personal event has occurred?
+Answer 1.2: The person has just received a promotion at work, which is typically considered a positive career achievement.
+Question 1.3: What physical reaction is the person experiencing?
+Answer 1.3: The person reports that they "can't stop smiling," which is a common physical manifestation of happiness or joy.
+Question 1.4: How do these factors typically influence a person's emotional state?
+Answer 1.4: Positive environmental conditions, personal achievements, and involuntary positive physical reactions typically contribute to feelings of happiness, satisfaction, or joy.
+Question 1.5: Now we can identify the primary emotion: What emotion am I feeling?
+Answer 1.5: Based on the combination of positive environmental factors, a significant personal achievement, and the involuntary physical reaction of continuous smiling, the primary emotion being experienced is joy.
+
+Situation 2: I found an old photo album and realized how much time has passed. Everyone looks so young and happy. What am I feeling?
+Question 2.1: What object has the person encountered?
+Answer 2.1: The person has found an old photo album, which typically contains memories from the past.
+Question 2.2: What realization has this object prompted?
+Answer 2.2: The photo album has made the person realize how much time has passed since the photos were taken.
+Question 2.3: How does the person describe the people in the photos?
+Answer 2.3: The person describes everyone in the photos as looking "young and happy."
+Question 2.4: What emotions are commonly associated with reflecting on past memories and the passage of time?
+Answer 2.4: Reflecting on past memories and the passage of time often evokes feelings of nostalgia, which can be a mix of happiness for the good times and sadness for what has changed or been lost.
+Question 2.5: Now we can identify the primary emotion: What am I feeling?
+Answer 2.5: Given the context of reflecting on old photos, realizing the passage of time, and noting how people used to look "young and happy," the primary emotion being experienced is likely sadness, specifically a nostalgic form of sadness.
+
+Situation 3: I can't believe they changed the parking rules without notifying anyone. Now I have a ticket! How am I feeling?
+Question 3.1: What unexpected change has occurred?
+Answer 3.1: The parking rules have been changed without prior notification.
+Question 3.2: What consequence has the person faced due to this change?
+Answer 3.2: The person has received a parking ticket as a result of the unannounced rule change.
+Question 3.3: How does the person express their initial reaction to the situation?
+Answer 3.3: The person expresses disbelief, saying "I can't believe they changed the parking rules without notifying anyone."
+Question 3.4: What emotions are typically associated with unexpected negative consequences and perceived unfairness?
+Answer 3.4: Unexpected negative consequences and perceived unfairness often lead to feelings of frustration, annoyance, or anger.
+Question 3.5: Now we can identify the primary emotion: How am I feeling?
+Answer 3.5: Based on the unexpected rule change, the negative consequence of receiving a ticket, and the expression of disbelief, the primary emotion being experienced is anger.
+
+Situation 4: Watching my child take their first steps filled me with an overwhelming sense of affection and pride. What emotion is this?
+Question 4.1: What event is the person witnessing?
+Answer 4.1: The person is watching their child take their first steps, which is a significant developmental milestone.
+Question 4.2: How does the person describe the intensity of their emotional reaction?
+Answer 4.2: The person describes their emotional reaction as "overwhelming," indicating a very strong feeling.
+Question 4.3: What specific emotions does the person mention feeling?
+Answer 4.3: The person mentions feeling both affection and pride.
+Question 4.4: In what context do these emotions typically occur together?
+Answer 4.4: Affection and pride often occur together in the context of close personal relationships, particularly in parent-child relationships during important moments or achievements.
+Question 4.5: Now we can identify the primary emotion: What emotion is this?
+Answer 4.5: Given the context of witnessing a child's milestone, the overwhelming intensity of the feeling, and the combination of affection and pride, the primary emotion being experienced is love.

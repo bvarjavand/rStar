@@ -16,6 +16,20 @@ from argparse import ArgumentParser
 def extract_trace(data_item, num_votes):
     res = []
     for item in data_item:
+        if isinstance(item, str):
+            res.append(item)
+        elif isinstance(item, dict):
+            if "text" in item:
+                res.append(item["text"])
+            elif "direct_answer" in item:
+                res.append(item["direct_answer"]["text"])
+            elif "subanswer" in item:
+                res.append(item["subanswer"]["text"])
+    return res
+
+def extract_trace(data_item, num_votes):
+    res = []
+    for item in data_item:
         i = 0
         trace = item["trace"] if "trace" in item else item
         rollout_id = item["rollout_id"] if "rollout_id" in item else 0
@@ -32,6 +46,15 @@ def extract_trace(data_item, num_votes):
             res.append(trace[str(i-1)]["ost_step"][str(j-1)])
         elif "subanswer" in trace[str(i-1)]:
             res.append(trace[str(i-1)]["subanswer"]["text"])
+        elif isinstance(item, str): # add start
+            res.append(item)
+        elif isinstance(item, dict):
+            if "text" in item:
+                res.append(item["text"])
+            elif "direct_answer" in item:
+                res.append(item["direct_answer"]["text"])
+            elif "subanswer" in item:
+                res.append(item["subanswer"]["text"]) # add end
         else:
             import pdb; pdb.set_trace()
     return res

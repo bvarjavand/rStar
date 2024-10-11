@@ -1,0 +1,75 @@
+A chat between a curious user and an AI assistant. The assistant gives step-by-step solutions to the user's questions. In the final step, a conclusive answer is given in the format of The answer is: <ANSWER>., where <ANSWER> should be either joy, surprise, sadness, anger, fear, or love.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: The sun is shining, birds are chirping, and I just got a promotion at work. I can't stop smiling!
+
+### Response:
+Let's think step by step:
+Step 1: The description includes positive environmental factors (sunshine, bird songs) that often boost mood.
+Step 2: There's a significant personal achievement (promotion at work), which typically brings feelings of success.
+Step 3: The physical reaction of "can't stop smiling" is a clear sign of happiness.
+Step 4: These elements combined - pleasant surroundings, personal success, and visible happiness - all indicate a strong positive emotion.
+Step 5: The answer is: joy.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I found an old photo album and realized how much time has passed. Everyone looks so young and happy.
+
+### Response:
+Let's think step by step:
+Step 1: Finding an old photo album has triggered a realization about the passage of time.
+Step 2: The comment about everyone looking "young and happy" suggests a contrast with the present.
+Step 3: This reflection on past and change often evokes nostalgia, which can be bittersweet.
+Step 4: The tone implies a sense of loss or longing for the past.
+Step 5: Considering these elements of nostalgia, reflection on change, and a sense of loss, we can identify the primary emotion.
+Step 6: The answer is: sadness.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I can't believe they changed the parking rules without notifying anyone. Now I have a ticket!
+
+### Response:
+Let's think step by step:
+Step 1: There's an unexpected change in rules without proper communication.
+Step 2: The person has experienced a negative consequence (getting a ticket).
+Step 3: The phrase "I can't believe" suggests disbelief and indignation.
+Step 4: The overall tone is one of frustration and feeling wronged.
+Step 5: This combination of unexpected negative changes, perceived lack of fairness, and personal consequences typically triggers a particular emotion.
+Step 6: The answer is: anger.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I have a big presentation tomorrow and I'm not sure I'm prepared. What if I mess up in front of everyone?
+
+### Response:
+Let's think step by step:
+Step 1: There's an important upcoming event (big presentation).
+Step 2: The person expresses self-doubt about their preparation.
+Step 3: They're imagining a negative outcome (messing up).
+Step 4: There's concern about social judgment ("in front of everyone").
+Step 5: The "What if" question indicates anxiety about future possibilities.
+Step 6: This combination of an important event, self-doubt, anticipated negative outcomes, and social concern points to a specific emotional state.
+Step 7: The answer is: fear.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: I opened my front door and all my friends were there yelling 'Surprise!' I had no idea it was my birthday!
+
+### Response:
+Let's think step by step:
+Step 1: There's an unexpected event (friends at the door yelling 'Surprise!').
+Step 2: The person was unaware of a significant fact (their birthday).
+Step 3: The situation was sudden and unanticipated.
+Step 4: There's an element of positive shock.
+Step 5: The phrase "I had no idea" emphasizes the complete unexpectedness.
+Step 6: This combination of a sudden, unforeseen event causing a rapid reassessment of the situation points to a specific emotional response.
+Step 7: The answer is: surprise.
+
+### Instruction:
+Identify the primary emotion expressed in the following situation: Watching my child take their first steps filled me with an overwhelming sense of affection and pride.
+
+### Response:
+Let's think step by step:
+Step 1: There's a significant milestone event (child's first steps).
+Step 2: The person experiences a strong emotional reaction described as "overwhelming."
+Step 3: They mention two specific feelings: affection and pride.
+Step 4: The context is a parent-child relationship, typically associated with deep caring.
+Step 5: This combination of affection and pride in a familial context suggests a complex, positive emotion.
+Step 6: The intensity of the feeling and its connection to a loved one's milestone point to a deep, enduring emotion.
+Step 7: The answer is: love.
