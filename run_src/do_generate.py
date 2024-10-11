@@ -12,7 +12,7 @@ from run_src.rstar_utils import GeneratorError
 from MCTS_for_reasoning import Generator, search_for_answers
 from eval_src.Evaluator import *
 
-os.environ['HF_TOKEN'] = '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'
+# os.environ['HF_TOKEN'] = <your_hf_token>
 
 
 def main(args):
